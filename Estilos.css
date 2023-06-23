@@ -1,0 +1,116 @@
+{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0PX;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Container{
+    width: 1100x;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background-color: rgb(128, 130, 240);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.logo-nav-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navegation{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li{
+    display: inline-block;
+}
+
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navegation ul li a:hover{
+background: VVV;
+}
+
+nav{
+    background-color: rgb(240, 151, 252);
+    height: 50px;
+    border: bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10 px;
+    line-height: 30px;
+}
+
+.crearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    background-color: rgb(201, 189, 204);
+    min-height: 470px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-color: rgb(85, 94, 211);
+    min-height: 470px;
+    padding: 10px;
+}
+
+#searchbar{
+    margin-left: 0%;
+    padding:10px;
+    border-radius: 10px;
+  }
+  input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ /* When the input field gets focus,
+      change its width to 100% */
+ input[type=text]:focus {
+   width: 70%;
+ }
+
+
